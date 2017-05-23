@@ -1,0 +1,12 @@
+---
+- hosts: SMA Servers
+
+  tasks: 
+
+    - name: create a file in C:\Temp
+      win_file:
+        path: C:\Temp\Created_with_tower
+        state: directory
+
+
+...
